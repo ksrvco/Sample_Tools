@@ -8,7 +8,7 @@ SUMMARYFILE="system_usage_summary.txt"
 > "$LOGFILE"
 > "$SUMMARYFILE"
 
-echo "Monitoring started... Duration: 20 hours, Interval: 30 seconds"
+echo "Monitoring started... Duration: 20 hours, Interval: 60 seconds"
 echo "Start time: $(date)" >> "$LOGFILE"
 
 while [ $SECONDS -lt $END ]; do
